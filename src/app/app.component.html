@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-header-layout></app-header-layout>
+<div class="row">
+  <div class="col col-4"></div>
+
+  <div class="col col-8">
+    <app-sub-nav inputTitle="the title"></app-sub-nav>
+    <app-sub-nav [inputTitle]="createTitle()"></app-sub-nav>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
